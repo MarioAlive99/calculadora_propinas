@@ -1,50 +1,7 @@
-# React + TypeScript + Vite
+# Calculadora de Propinas por MarioDevs
+# Introducción
+El desarrollo de aplicaciones web modernas requiere el uso de tecnologias que proporcionen una experiencia de usuario eficiente, segura y escalable. En este contexto, la construccion de una <strong> calculadora de propinas </strong> con React.js, TypeScript y JWT (JSON Web Token), representa una solución tecnica robusta. Esta aplicación no solo permite realizar calculos precisos y rapidos, sino que tambien garantiza la seguridad de los datos del usuario a traves de autenticación y autorización. React.js, por su capacidad para construir interfaces interactivas, junto con TypeScript, que aporta seguridad mediante tipado estatico, forman una combinacion ideal para este tipo de aplicaciones. Ademas, el uso de JWT añade una capa de seguridad, asegurando que solo los usuarios autenticados puedan acceder a ciertas funcionalidades.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# ¿Como funciona la calculadora de propinas?
+# Diseño
+El diseño principal de este proyecto esta hecho con TailwindCSS, su funcionalidad central sigue siendo la misma: calcular propinas de manera rapida y eficiente. Sin embargo, TailwindCSS aporta ventajas significativas en la experiencia del usuario y el desarrollo visual de la aplicacion.
